@@ -1,0 +1,23 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "new website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "new",
+    "project"
+  ],
+  "author": "mustafa cendek",
+  "license": "ISC"
+}
