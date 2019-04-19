@@ -1,0 +1,48 @@
+.headerContainer{
+    position: relative;
+    width: 1140px;
+    height: 35px;
+    padding: 20px 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    &-text{
+        font-family: 'Josefin Slab', serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: #e43c5c;
+        text-decoration: none;
+        &:hover
+        {
+            color: #5e5e5e;
+        }
+    }
+}
+
+.navigation{
+    position: relative;
+    margin-left: auto;
+    &-links{
+        display: inline-block;
+        height: 24px;
+        margin-right: 20px;
+
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #354242;
+
+        border-bottom: 2px solid white;
+        &:last-child{
+            margin-right: 0px;
+        }
+        &:hover{
+            border-bottom-color: #e43c5c;
+        }
+
+    }
+}
