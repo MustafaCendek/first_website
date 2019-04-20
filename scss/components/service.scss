@@ -1,0 +1,60 @@
+.servicesline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-container{
+        display: flex;
+        flex-direction: column;
+        width: 1140px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        &-header{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            &-title{
+                font-size: 36px;
+                font-weight: 500px;
+                color: $color-grey;
+            }
+            &-explanation{
+                font-size: 14px;
+                color: $color-dark-grey;
+            }
+        }
+        &-services{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;;
+            &-container{
+                display: flex;
+                float: left;
+                margin-right: 50px;
+                &-logo{
+                    width: 150px;
+                    float: left;
+                }
+                &-content{
+                    float: left;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    &-title{
+                        font-size: 18px;
+                    }
+                    &-explanation{
+                        font-size: 14px;
+                    }
+                }
+                &:last-child{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

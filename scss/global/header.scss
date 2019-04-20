@@ -14,11 +14,11 @@
         font-family: 'Josefin Slab', serif;
         font-weight: 700;
         font-size: 42px;
-        color: #e43c5c;
+        color: $color-pink;
         text-decoration: none;
         &:hover
         {
-            color: #5e5e5e;
+            color:$color-soft-grey;
         }
     }
 }
@@ -34,14 +34,14 @@
         font-size: 14px;
         font-weight: bold;
         text-decoration: none;
-        color: #354242;
+        color: $color-grey;
 
         border-bottom: 2px solid white;
         &:last-child{
             margin-right: 0px;
         }
         &:hover{
-            border-bottom-color: #e43c5c;
+            border-bottom-color: $color-pink-border;
         }
 
     }
