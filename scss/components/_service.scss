@@ -6,7 +6,7 @@
     &-container{
         display: flex;
         flex-direction: column;
-        width: 1140px;
+        width: $max-width;
         padding-left: 20px;
         padding-right: 20px;
         align-items: center;
@@ -39,6 +39,16 @@
                 &-logo{
                     width: 150px;
                     float: left;
+                    &-container{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 30px;
+                        width: 75px;
+                        height: 75px;
+                        border: 1px solid $color-light-grey;
+                        border-radius: 100%;
+                    }
                 }
                 &-content{
                     float: left;

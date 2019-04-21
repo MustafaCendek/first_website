@@ -309,8 +309,36 @@ template {
   width: 1em;
   height: 1em;
   stroke-width: 0;
-  stroke: black;
-  fill: black; }
+  stroke: currentColor;
+  fill: currentColor; }
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+.icon-paper-plane {
+  width: 1.0009765625em; }
+
+.icon-image {
+  width: 1.0712890625em;
+  font-size: 32px;
+  color: #e43c5c; }
+
+.icon-code {
+  width: 1.0712890625em;
+  font-size: 32px;
+  color: #e43c5c; }
+
+.icon-diamond {
+  width: 1.142578125em;
+  font-size: 32px;
+  color: #e43c5c; }
+
+.icon-facebook {
+  font-size: 32px; }
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
@@ -475,6 +503,15 @@ header {
         .servicesline-container-services-container-logo {
           width: 150px;
           float: left; }
+          .servicesline-container-services-container-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            width: 75px;
+            height: 75px;
+            border: 1px solid #e9e9e9;
+            border-radius: 100%; }
         .servicesline-container-services-container-content {
           float: left;
           padding-left: 20px;

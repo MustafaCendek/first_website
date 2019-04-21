@@ -5,7 +5,7 @@
     justify-content: center;
     background-color: $color-pink;
     &-container{
-        width: 1140px;
+        width: $max-width;
         padding-left: 10px;
         padding-right: 10px;        
         display: flex;
