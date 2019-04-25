@@ -6,7 +6,8 @@
     &-container{
         display: flex;
         flex-direction: column;
-        width: $max-width;
+        width: 100%;
+        max-width: $max-width;
         padding-left: 20px;
         padding-right: 20px;
         align-items: center;
@@ -19,50 +20,57 @@
             text-align: center;
             &-title{
                 font-size: 36px;
-                font-weight: 500px;
                 color: $color-grey;
+                padding: 0px;
+                margin: 0px;
+                margin-top: 65px;
             }
             &-explanation{
                 font-size: 14px;
                 color: $color-dark-grey;
             }
+            &-separator{
+                display: block;
+                width: 100px;
+                height: 3px;
+                background-color: $color-pink;
+            }
         }
         &-services{
             display: flex;
+            width: 100%;
+            max-width: $max-width;
+            //flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 100%;;
             &-container{
+                margin-top: 25px;
                 display: flex;
-                float: left;
+                height: 250px;
                 margin-right: 50px;
+                &:last-child{
+                    margin-right:0px;
+                }
                 &-logo{
-                    width: 150px;
-                    float: left;
-                    &-container{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin-top: 30px;
-                        width: 75px;
-                        height: 75px;
-                        border: 1px solid $color-light-grey;
-                        border-radius: 100%;
-                    }
+                    display: flex;
+                    width: 70px;
+                    height: 70px;
+                    margin-top: 15px;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    border: 1px solid $color-light-grey;
+                    border-radius: 100%;
+                    flex-shrink: 0;
                 }
                 &-content{
-                    float: left;
                     padding-left: 20px;
-                    padding-right: 20px;
                     &-title{
                         font-size: 18px;
                     }
                     &-explanation{
                         font-size: 14px;
                     }
-                }
-                &:last-child{
-                    margin-right: 0px;
                 }
             }
         }

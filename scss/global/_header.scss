@@ -1,6 +1,7 @@
 .headerContainer{
     position: relative;
-    width: $max-width;
+    width: 100%;
+    max-width: $max-width;
     height: 35px;
     padding: 20px 10px;
     margin: auto;

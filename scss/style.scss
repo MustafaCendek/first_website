@@ -1,12 +1,18 @@
 @import "config/variable";
 @import "config/mixin";
 //
-@import "helper/normalize";
+@import "modules/normalize";
+@import "modules/slick";
+@import "modules/slick-theme";
 //
 @import "global/icons";
 @import "global/global";
 @import "global/header";
+//
 @import "components/banner";
 @import "components/strip";
 @import "components/service";
+@import "components/portfolio";
+@import "components/our_team";
+@import "components/quote";
 
