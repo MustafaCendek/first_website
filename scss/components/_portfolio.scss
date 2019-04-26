@@ -1,5 +1,6 @@
 
 .portfolio{
+    padding-top: 35px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,11 +8,11 @@
     &-container{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         max-width: $max-width;
-        padding: 20px 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
         &-head{
             display: flex;
             flex-direction: column;
@@ -23,6 +24,9 @@
             &-title{
                 font-size: 36px;
                 color: $color-grey;
+                padding: 0px;
+                margin: 0px;
+                margin-top: 65px;
             }
             &-explanation{
                 font-size: 14px;

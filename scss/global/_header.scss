@@ -47,3 +47,15 @@
 
     }
 }
+.pink{
+    border: 3px solid $color-pink;
+    color: $color-pink;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+    &:hover{
+        border: 3px solid $color-pink !important;
+        background-color: $color-pink;
+        color:white;
+    }
+}

@@ -1,8 +1,9 @@
 .servicesline{
+    padding-top: 35px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     &-container{
         display: flex;
         flex-direction: column;
@@ -14,7 +15,8 @@
         &-header{
             display: flex;
             flex-direction: column;
-            width: 500px;
+            width: 100%;
+            max-width: 500px;
             align-items: center;
             justify-content: center;
             text-align: center;
