@@ -1,5 +1,6 @@
 # Nedir?
-Bu repo Bootstrapmade.com'da paylaşılan [Tempo](https://bootstrapmade.com/demo/Tempo/) temasının eski bir sürümünün bootstrap _kullanılmadan_ **pug** ve **scss** ile pixel pixel aynı olacak şekilde tekrar yazılmasını içerir.
+Ücretsiz olarak dağıtılan bir temanın 3. versiyonunun bootstrap _kullanılmadan_ **pug** ve **scss** ile pixel pixel aynı olacak şekilde tekrar yazılmasını içerir.
+Örnek alınan temanın telif haklarını ihlal etmemek için, bu temayı kullanmayın. Eğitim amaçlıdır.
 # Gerekli Programlar
 node.js  
 npm paket yöneticisi
