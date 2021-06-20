@@ -1,5 +1,5 @@
 # Nedir?
-Bu repo Bootstrapmade.com'da paylaşın [Tempo](https://bootstrapmade.com/demo/Tempo/) temasının eski bir sürümünün bootstrap _kullanılmadan_ **pug** ve **scss** ile pixel pixel aynı olacak şekilde tekrar yazılmasını içerir.
+Bu repo Bootstrapmade.com'da paylaşılan [Tempo](https://bootstrapmade.com/demo/Tempo/) temasının eski bir sürümünün bootstrap _kullanılmadan_ **pug** ve **scss** ile pixel pixel aynı olacak şekilde tekrar yazılmasını içerir.
 # Gerekli Programlar
 node.js  
 npm paket yöneticisi
